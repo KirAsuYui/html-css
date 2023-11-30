@@ -1,0 +1,157 @@
+.xtx_centent {
+    padding: 29px 0 85px;
+    background-color: #f6f6f6;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.xtx_centent .aside {
+    margin-right: 18px;
+    width: 224px;
+    min-height: 500px;
+    background-color: pink;
+}
+
+.xtx_centent .main {
+    flex: 1;
+    /* background-color: skyblue; */
+}
+
+.xtx_centent .main .overview {
+    display: flex;
+    margin-bottom: 18px;
+    padding: 20px 0;
+    height: 132px;
+    background-color: #fff;
+}
+
+.xtx_centent .main .overview div {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.xtx_centent .main .overview div:nth-child(1) {
+    border-right: 1px solid #f4f4f4;
+}
+
+
+.xtx_centent .main .overview img {
+    width: 25px;
+    margin-bottom: 10px;
+}
+
+.xtx_centent .main .overview span {
+	font-size: 25px;
+	color: #e05e30;
+}
+
+.xtx_centent .main .overview div:first-child a:last-child img{
+    width: 18px;
+}
+
+.xtx_centent .main .pannel {
+    
+    padding: 28px 20px;
+    background-color: #fff;
+}
+
+.xtx_centent .main .pannel_title{
+    display: flex;
+    justify-content: space-between;
+    height: 43px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.xtx_centent .main .pannel_title h5{
+    font-size: 22px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.xtx_centent .main .pannel_title a {
+    margin-top: 8px;
+    font-size: 16px;
+	font-weight: normal;
+	color: #999999;
+}
+
+.xtx_centent .main .content li{
+    display: flex;
+    margin-top: -1px;
+    margin-bottom: 21px;
+    height: 137px;
+    border: 1px solid #f4f4f4;
+}
+
+.xtx_centent .main .content li:last-child{
+    margin-bottom: 0px;
+}
+.xtx_centent .main .content .goods {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-right: 128px;
+    padding: 17px 0 14px 12px;
+    
+}
+
+.xtx_centent .main .content .goods .pic{
+    width: 107px;
+	height: 107px;
+}
+.xtx_centent .main .content .txt {
+    flex: 1;
+    /* 弹性盒子的尺寸会被内容撑开，需加以限制才能实现溢出显示效果 */
+    width: 0;
+}
+
+.xtx_centent .main .content .txt h5 {
+    /* 溢出显示小圆点 */
+    text-overflow: ellipsis;
+    /* 不换行 */
+    white-space: nowrap;
+    /* 溢出隐藏 */
+    overflow: hidden;
+
+}
+
+.xtx_centent .main .content .status {
+    width: 120px;
+    align-self: center;
+    color: #e05e30;
+
+}
+
+.xtx_centent .main .content .pay{
+    width: 200px;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+
+}
+
+.xtx_centent .main .content .action{
+    width: 180px;
+}
+
+.xtx_centent .main .content .action a:first-child {
+    margin-bottom: 16px;
+    width: 100px;
+	height: 30px;
+	background-color: #5eb69c;
+	border-radius: 2px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+.xtx_centent .main .content .common {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
